@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Submit</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<header>
+  <nav class="container">
+    <img src="./assets/logo@1x.png" alt="CSDN" class="logo">
+    <div class="menu">
+      <ul>
+        <li><a href="/" target="_blank" class="nav-item active">首页</a></li>
+        <li><a class="nav-item">解决方案</a></li>
+        <li><a class="nav-item">产品与服务</a></li>
+        <li><a class="nav-item">客户案例</a></li>
+        <li><a class="nav-item">咨询中心</a></li>
+        <li><a class="nav-item">关于我们</a></li>
+      </ul>
+    </div>
+    <div class="search">
+      <input type="text" name="search" placeholder="请输入关键字">
+      <img src="./assets/searchIcon@1x.png" alt="search">
+    </div>
+    <div class="register">
+      <button type="button">登录</button>
+      <span class="line"></span>
+      <button type="button">立即注册</button>
+    </div>
+  </nav>
+</header>
+
+<main class="mainNew">
+  <div class="floatBanner">
+    <div class="floatBlock">
+      <img src="./assets/zixunIcon@1x.png" alt="zixun">
+      <p>在线咨询</p>
+    </div>
+    <div class="floatBlock">
+      <img src="./assets/telIcon@1x.png" alt="tel">
+      <p>电话咨询</p>
+    </div>
+    <div class="last-floatBlock" onclick="formSubmitOpenOnform()">
+      <img src="./assets/showIcon@1x.png" alt="show">
+      <p>预约演示</p>
+    </div>
+  </div>
+
+  <section id="container1">
+    <h1>预约演示</h1>
+    <br/>
+    <div class="form">
+      <p>姓名<span>*</span></p>
+      <input type="text" name="name" placeholder="请输入姓名">
+      <p>手机<span>*</span></p>
+      <input type="text" name="phone" placeholder="请输入手机号" id="phone">
+      <p>验证码<span>*</span></p>
+      <div id="code"><input type="text" name="code" placeholder="请输入验证码"><button type="button" id="verifycode" onclick="sendCode(this)">获取验证码</button></div>
+      <p>公司名称</p>
+      <input type="text" name="company" placeholder="请输入公司名称">
+      <p>公司职务</p>
+      <input type="text" name="title" placeholder="请输入所任职务">
+      <p>备注</p>
+      <input type="text" name="remarks" placeholder="请输入备注内容">
+    </div>
+    <button type="button" class="submitButton">提交</button>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footBlock">
+      <h3>产品</h3>
+      <ul>
+        <li>一站式人力资源管理</li>
+        <li>一体化薪税管理平台</li>
+        <li>智能大数据平台</li>
+      </ul>
+    </div>
+    <div class="footBlock">
+      <h3>服务</h3>
+      <ul>
+        <li>薪酬社保外包服务</li>
+        <li>全面薪酬</li>
+        <li>客户成功</li>
+      </ul>
+    </div>
+    <div class="footBlock">
+      <h3>合作伙伴</h3>
+      <ul>
+        <li>合作加盟</li>
+      </ul>
+    </div>
+    <div class="footBlock">
+      <h3>资源</h3>
+      <ul>
+        <li>客户案例</li>
+        <li>行业报告</li>
+        <li>HR大咖说</li>
+        <li>客户成功</li>
+        <li>认证培训</li>
+      </ul>
+    </div>
+    <div class="footBlock">
+      <h3>关于我们</h3>
+      <ul>
+        <li>公司简介</li>
+        <li>团队介绍</li>
+        <li>成长历程</li>
+        <li>加入易路</li>
+      </ul>
+    </div>
+    <div class="footBlock">
+      <h3>联系我们</h3>
+      <ul>
+        <li>产品咨询</li>
+        <li>技术支持</li>
+        <li>售后服务</li>
+        <li>投诉热线</li>
+      </ul>
+    </div>
+  </div>
+  <div class="company">&copy2021-2028 CSDN. All Rights Reserved.</div>
+</footer>
+</body>
+<script type="text/javascript" src="./common.js"></script>
+</html>

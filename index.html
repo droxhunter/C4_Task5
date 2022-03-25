@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSDN</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<header>
+    <nav class="container">
+        <img src="./assets/logo@1x.png" alt="CSDN" class="logo">
+        <div class="menu">
+            <ul>
+                <li><a href="/" target="_blank" class="nav-item active">首页</a></li>
+                <li><a class="nav-item">解决方案</a></li>
+                <li><a class="nav-item">产品与服务</a></li>
+                <li><a class="nav-item">客户案例</a></li>
+                <li><a class="nav-item">咨询中心</a></li>
+                <li><a class="nav-item">关于我们</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="text" name="search" placeholder="请输入关键字">
+            <img src="./assets/searchIcon@1x.png" alt="search">
+        </div>
+        <div class="register">
+            <button type="button">登录</button>
+            <span class="line"></span>
+            <button type="button">立即注册</button>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <div class="floatBanner">
+        <div class="floatBlock">
+            <img src="./assets/zixunIcon@1x.png" alt="zixun">
+            <p>在线咨询</p>
+        </div>
+        <div class="floatBlock">
+            <img src="./assets/telIcon@1x.png" alt="tel">
+            <p>电话咨询</p>
+        </div>
+        <div class="last-floatBlock" onclick="formSubmitOpen()">
+            <img src="./assets/showIcon@1x.png" alt="show">
+            <p>预约演示</p>
+        </div>
+    </div>
+
+    <section class="container">
+        <img src="./assets/banner@1x.jpg" alt="banner" class="banner">
+
+        <div class="solution">
+            <h2>自主创新的数字化解决方案</h2>
+        </div>
+        <img src="./assets/line.png" alt="line">
+
+        <div class="solutionAll">
+            <div class="solution-container">
+                <img src="./assets/pic1@1x.png" alt="一站式人力资源管理">
+                <h3>一站式人力资源管理</h3>
+                <p>为大中型企业提供的一站式人力资源管理平台，系统强大，覆盖人力资源管理“选育用留”的每个环节，激发组织无限潜能，连接人与组织的力量，提升企业核心竞争力。</p>
+                <ul>
+                    <li><span style="color: #666666; margin-right: 10px">核心人力资源管理</span></li>
+                    <li><span style="color: #666666; margin-right: 20px">薪酬管理</span></li>
+                    <li><span style="color: #666666">绩效管理</span></li>
+                    <li><span style="color: #666666; margin-right: 66px">时间管理</span></li>
+                    <li><span style="color: #666666; margin-right: 20px;">学习发展</span></li>
+                    <li><span style="color: #666666">佣金管理</span></li>
+                </ul>
+                <button type="button" class="detailButton">详情</button>
+            </div>
+            <div class="solution-container">
+                <img src="./assets/pic2@1x.png" alt="一体化薪税管理平台">
+                <h3>一体化薪税管理平台</h3>
+                <p>帮助企业实现一体化的薪酬与个税管理，与国家税局联通，让薪税计算高效又准确。可统一平台管理多个法人实体，一站式完成薪税数据获取、计算、申报、缴税、发放。</p>
+                <div class="blank"></div>
+                <button type="button" class="detailButton">详情</button>
+            </div>
+            <div class="last-solution-container">
+                <img src="./assets/pic3@1x.png" alt="智能大数据平台">
+                <h3>智能大数据平台</h3>
+                <p>运用AI人工智能技术+大数据技术为客户提供市场薪酬分析的SaaS平台。拥有海量实时薪酬数据样本，可实时为企业提供最新最全的市场薪酬数据，同时可根据企业业务需求定制薪酬分析报告、薪酬体系设计等服务。</p>
+                <ul>
+                    <li><span style="color: #666666; margin-right: 50px">薪酬大数据平台</span></li>
+                    <li><span style="color: #666666">定制报告</span></li>
+                    <li><span style="color: #666666; margin-right: 36px">薪酬体系设计工具</span></li>
+                    <li><span style="color: #666666">薪酬工具包</span></li>
+                </ul>
+                <button type="button" class="detailButton">详情</button>
+            </div>
+        </div>
+
+        <button type="button" class="mainButton" onclick="formSubmitOpen()">预约演示</button>
+
+        <div class="case">
+            <h2>C站HR应用成功案例</h2>
+            <img src="./assets/line.png" alt="line">
+            <div class="carosel">
+                <img src="./assets/jiantou-l@1x.png" alt="leftArrow" class="moveButton" onclick="leftMove()">
+                <div class="box">
+                    <div class="caseBlock">
+                        <h3>快消零售</h3>
+                        <h4>FMCG and Retail</h4>
+                        <p>Levis致力于打造富有多样性及包容性的工作团队，帮助我们营造出各种文化、风格和观点相互交融的工作气氛，People+平台兼顾了实用与视觉的双重高标准，实现了Levis无纸化办公日常。</p>
+                        <img src="./assets/pic4@1x.png" alt="retail">
+                        <button type="button" class="detailButton">客户故事</button>
+                    </div>
+                    <div class="caseBlock">
+                        <h3>教育培训</h3>
+                        <h4>Education and training</h4>
+                        <p>人事系统帮助机构提高了企业人力资源管理的水平和工作效率。完成了审批流程标准化、员工操作便捷化、数据管理集中化的项目目标。</p>
+                        <img src="./assets/pic5@1x.png" alt="education">
+                        <button type="button" class="detailButton">客户故事</button>
+                    </div>
+                    <div class="caseBlock">
+                        <h3>互联网</h3>
+                        <h4>FMCG and Retail</h4>
+                        <p>数字化产品在两个月就完成了系统实施与测试，上线了上千名员工；不只是薪酬计算，完全符合客户可持续发展理念，帮助客户实现了无纸化办公。</p>
+                        <img src="./assets/pic7@1x.png" alt="internet">
+                        <button type="button" class="detailButton">客户故事</button>
+                    </div>
+                    <div class="caseBlock">
+                        <h3>旅游行业</h3>
+                        <h4>Tourism industry</h4>
+                        <p>很好地进行人力资源管理，其中包含薪酬/流程/员工主数据。在实施过程中，国际化及汇报链是难点，同时还能很好地客制化达到要求，成为必推的系统供应商。</p>
+                        <img src="./assets/pic6@1x.png" alt="tourism">
+                        <button type="button" class="detailButton">客户故事</button>
+                    </div>
+                </div>
+                <img src="./assets/jiantou-r@1x.png" alt="rightArrow" class="moveButton" onclick="rightMove()">
+            </div>
+            <p class="intro"></p>
+            <button type="button" class="mainButton">了解更多</button>
+        </div>
+
+        <div class="news">
+            <h2>新闻资讯</h2>
+            <img src="./assets/line.png" alt="line">
+            <div class="newsBlock">
+                <div class="newsdetail">
+                    <h3>行业资讯</h3>
+                    <button type="button" class="moreButton">
+                        <img src="./assets/quan@1x.png" alt="sign">更多
+                    </button>
+                    <ul>
+                        <li>最新人力资源管理大数据分析报告汇总<span>2021-04-01</span></li>
+                        <li>京东集团-从人才管理系统构建到无边界人才共享<span>2021-04-01</span></li>
+                        <li>名企案例|这家地产新锐如何让3500员工集体高效<span>2021-04-01</span></li>
+                        <li>2020年人力资源管理大数据分析报告汇总<span>2021-04-01</span></li>
+                        <li>2019年人力资源管理大数据分析报告汇总<span>2021-04-01</span></li>
+                    </ul>
+                </div>
+                <div class="newsdetail">
+                    <h3>C站新闻</h3>
+                    <button type="button" class="moreButton">
+                        <img src="./assets/quan@1x.png" alt="sign">更多
+                    </button>
+                    <ul>
+                        <li>从效率到智能，招聘数字化请从这四点入手<span>2021-04-01</span></li>
+                        <li>像搭积木一样开发SaaS应用，2020PaaS能力升级盘点<span>2021-04-01</span></li>
+                        <li>7成企业发力人力资源数字化转型，为何成功者只有3%？<span>2021-04-01</span></li>
+                        <li>岗位胜任力评估：项目经理测评方案，助力企业慧眼识人<span>2021-04-01</span></li>
+                        <li>HRD如何从0到1搭建人力资源业务流程体系？<span>2021-04-01</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footBlock">
+            <h3>产品</h3>
+            <ul>
+                <li>一站式人力资源管理</li>
+                <li>一体化薪税管理平台</li>
+                <li>智能大数据平台</li>
+            </ul>
+        </div>
+        <div class="footBlock">
+            <h3>服务</h3>
+            <ul>
+                <li>薪酬社保外包服务</li>
+                <li>全面薪酬</li>
+                <li>客户成功</li>
+            </ul>
+        </div>
+        <div class="footBlock">
+            <h3>合作伙伴</h3>
+            <ul>
+                <li>合作加盟</li>
+            </ul>
+        </div>
+        <div class="footBlock">
+            <h3>资源</h3>
+            <ul>
+                <li>客户案例</li>
+                <li>行业报告</li>
+                <li>HR大咖说</li>
+                <li>客户成功</li>
+                <li>认证培训</li>
+            </ul>
+        </div>
+        <div class="footBlock">
+            <h3>关于我们</h3>
+            <ul>
+                <li>公司简介</li>
+                <li>团队介绍</li>
+                <li>成长历程</li>
+                <li>加入易路</li>
+            </ul>
+        </div>
+        <div class="footBlock">
+            <h3>联系我们</h3>
+            <ul>
+                <li>产品咨询</li>
+                <li>技术支持</li>
+                <li>售后服务</li>
+                <li>投诉热线</li>
+            </ul>
+        </div>
+    </div>
+    <div class="company">&copy2021-2028 CSDN. All Rights Reserved.</div>
+</footer>
+</body>
+<script type="text/javascript" src="./common.js"></script>
+</html>

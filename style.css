@@ -1,0 +1,690 @@
+* {
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+
+header {
+    margin: 0 auto;
+    padding: 0;
+    height: 80px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px 0 #CCCCCC;
+}
+
+nav.container {
+    list-style: none;
+    text-align: center;
+    margin: 0 120px;
+    width: 1680px;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+.logo {
+    float: left;
+    margin: 18px 129px 18px 0;
+    padding: 0;
+    width: 160px;
+    height: 44px;
+    cursor: pointer;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.nav-item {
+    float: left;
+    margin: 29px 25px;
+    padding: 0;
+    display: inline;
+    text-decoration: none;
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 22px;
+    color: #333333;
+    cursor: pointer;
+}
+
+.active {
+    color: #004D82;
+}
+
+.nav-item:hover {
+    height: 4px;
+    background-color: #F16D29;
+    color: #004D82;
+}
+
+.search {
+    float: left;
+    margin: 24px 32px 24px 31px;
+    padding: 0;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 16px;
+    width: 180px;
+    height: 32px;
+}
+
+.search > input {
+    float: left;
+    position: relative;
+    margin: 6px 76px 6px 20px;
+    padding: 0;
+    border-style: none;
+    width: 84px;
+    height: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    text-align: right;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search > img {
+    float: left;
+    position: absolute;
+    margin: 8px -37px;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.register {
+    list-style: none;
+    float: left;
+    position: relative;
+    margin: 30px auto 30px 32px;
+    padding: 0;
+}
+
+button {
+    list-style: none;
+    border: 0;
+    outline: none;
+    background-color: white;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.line {
+    margin: 33px 10px;
+    padding: 0;
+    border: 1px solid #999999;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    height: 2580px;
+    background: #FFFFFF;
+}
+
+.banner {
+    position: relative;
+    margin: 0 -111.5px;
+    padding: 0;
+    width: 1663px;
+    height: auto;
+}
+
+.floatBanner {
+    float: right;
+    position: fixed;
+    margin: 0 0 0 130px;
+    padding: 0;
+    width: 70px;
+    height: 210px;
+    background: #78CBF7;
+    display: inline-block;
+    z-index: 1;
+}
+
+.floatBlock {
+    padding: 12px 0 0 0;
+    width: 70px;
+    height: 57px;
+    border-bottom: 1px solid #FFFFFF;
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.last-floatBlock {
+    padding: 12px 0 0 0;
+    width: 70px;
+    height: 57px;
+    font-family: PingFangSC-Regular;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.floatBlock, .last-floatBlock{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.floatBlock:hover, .last-floatBlock:hover {
+    background: #F16D29;
+}
+
+.solution h2, .news h2 {
+    margin: 60px auto 0 auto;
+    padding: 0;
+    width: 336px;
+    height: 40px;
+    font-family: PingFangSC-Semibold;
+    font-size: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+section .container img {
+    background: #F16D29;
+    width: 64px;
+    height: 24px;
+}
+
+.solutionAll {
+    width: auto;
+}
+
+.solution-container {
+    float: left;
+    margin: 40px 120px 60px 0;
+    padding: 0;
+    width: 400px;
+    height: 565px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 #D8D8D8;
+    border-radius: 10px;
+}
+
+.last-solution-container {
+    float: left;
+    margin: 40px 0 60px 0;
+    padding: 0;
+    width: 400px;
+    height: 565px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 #D8D8D8;
+    border-radius: 10px;
+}
+
+.solution-container img, .last-solution-container img {
+    width: 400px;
+    height: 220px;
+}
+
+.solution-container h3, .last-solution-container h3 {
+    margin: 30px 30px 0 30px;
+    padding: 0;
+    font-family: PingFangSC-Semibold;
+    font-size: 18px;
+    color: #000000;
+    line-height: 24px;
+    text-align: left;
+}
+
+.solution-container p, .last-solution-container p {
+    margin: 20px 30px;
+    padding: 0;
+    width: 340px;
+    height: 96px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999999;
+    line-height: 24px;
+    text-align: left;
+}
+
+.solution-container ul, .last-solution-container ul {
+    position: relative;
+    margin: 0 0 20px 48px;
+    width: 400px;
+    color: #78CBF7;
+}
+
+.solution-container li, .last-solution-container li {
+    float: left;
+    margin: 0 32px 0 0;
+    padding: 0;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #78CBF7;
+    line-height: 28px;
+}
+
+.detailButton {
+    list-style: none;
+    float: left;
+    position: relative;
+    margin: 20px 0 37px 30px;
+    width: 114px;
+    height: 42px;
+    border: 1px solid #78CBF7;
+    border-radius: 23px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #78CBF7;
+    cursor: pointer;
+}
+
+.detailButton:hover {
+    background: #78CBF7;
+    color: #FFFFFF;
+    box-shadow: 0 2px 4px 0 #D8D8D8;
+}
+
+.blank {
+    height: 56px;
+}
+
+.mainButton {
+    list-style: none;
+    margin: 3px auto 67px auto;
+    padding: 0;
+    width: 140px;
+    height: 42px;
+    background: #F16D29;
+    border-radius: 21px;
+    font-family: PingFangSC-Regular;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.mainButton:hover {
+    background: #FFFFFF;
+    border: 1px solid #F16D29;
+    color: #F16D29;
+    box-shadow: 0 2px 4px 0 #D8D8D8;
+}
+
+.case {
+    margin: 0 auto 0 -111.5px;
+    padding: 30px 0;
+    width: 1663px;
+    height: 690px;
+    background: #F4F5F7;
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.50);
+}
+
+.case h2 {
+    margin: 30px 698.5px 0;
+    padding: 0;
+    width: 266px;
+    height: 40px;
+    font-family: PingFangSC-Semibold;
+    font-size: 28px;
+    color: #000000;
+}
+
+.carosel {
+    margin: 20px 60px 3px 55.5px;
+    padding: 0;
+    width: 1552px;
+    height: 448px;
+}
+
+.moveButton {
+    float: left;
+    position: relative;
+    margin: 187.5px 0;
+    padding: 0;
+    width: 56px;
+    height: 56px;
+}
+
+.moveButton:hover {
+    margin: 188.5px -1px 186.5px 1px;
+    cursor: pointer;
+}
+
+.box {
+    float: left;
+    position: relative;
+    width: 1440px;
+    height: 448px;
+    overflow: hidden;
+
+}
+
+.caseBlock {
+    position: absolute;
+    margin: 20px 50px;
+    padding: 0;
+    width: 620px;
+    height: 408px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 #D8D8D8;
+    border-radius: 10px;
+}
+
+.caseBlock h3 {
+    margin: 63px 500px 0 40px;
+    padding: 0 0 10px 0;
+    width: 80px;
+    height: 20px;
+    font-family: PingFangSC-Semibold;
+    font-size: 20px;
+    color: #000000;
+}
+
+.caseBlock h4 {
+    margin: 0 0 0 8px;
+    padding: 0;
+    width: 200px;
+    height: 22px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #000000;
+}
+
+.caseBlock p {
+    float: left;
+    margin: 30px 0 0 40px;
+    padding: 0;
+    width: 300px;
+    height: 160px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #999999;
+    line-height: 32px;
+    text-align: left;
+}
+
+.caseBlock img {
+    float: left;
+    margin: 0 0 0 20px;
+    padding: 30px 0 0 0;
+    width: 200px;
+    height: 160px;
+}
+
+.intro {
+    margin: 23px 0 13px 120px;
+    padding: 0;
+    width: 640px;
+    height: 34px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #E02020;
+    text-align: left;
+}
+
+.news {
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    height: 465px;
+}
+
+.news h2 {
+    margin: 60px 663px 0;
+    padding: 0;
+    font-family: PingFangSC-Semibold;
+    font-size: 28px;
+    width: 112px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.newsBlock {
+    float: left;
+    position: relative;
+    width: 1440px;
+    height: 400px;
+}
+
+.newsdetail {
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 720px;
+}
+
+.news h3 {
+    margin: 40px 0 -25px 0;
+    padding: 0;
+    width: 72px;
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #000000;
+}
+
+.news li {
+    list-style-image: url("./assets/doubleArrow@1x.png");
+    margin: 0 0 16px 22px;
+    padding: 0;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    text-align: left;
+    color: #000000;
+}
+
+.news li span {
+    float: right;
+    margin-right: 65px;
+}
+
+.news li:hover {
+    color: #78CBF7;
+    cursor: pointer;
+}
+
+.moreButton {
+    list-style: none;
+    margin: 0 0 44px 500px;
+    padding: 0;
+    width: 90px;
+    height: 28px;
+    background: #78CBF7;
+    border-radius: 14px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.moreButton img {
+    float: left;
+    position: relative;
+    margin: 2px -10px 2px 20px;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+}
+
+.moreButton:hover {
+    background: #FFFFFF;
+    border: 1px solid #78CBF7;
+    color: #78CBF7;
+    box-shadow: 0 2px 4px 0 #D8D8D8;
+}
+
+footer {
+    margin-top: 10px;
+    height: 268px;
+    background: #042B46;
+}
+
+footer > .container {
+    background: #042B46;
+}
+
+footer li {
+    list-style: none;
+    margin: 0 120px 0 0;
+    padding: 0;
+    text-align: left;
+}
+
+.footBlock {
+    float: left;
+    position: relative;
+    margin: 43px 0 0 0;
+    padding: 0;
+}
+
+.footBlock h3 {
+    float: left;
+    position: relative;
+    margin: 0 180px 20px 0;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footBlock ul {
+}
+
+.footBlock li {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #C5C5C5;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+footer li:hover {
+    color: #FFFFFF;
+}
+
+.company {
+    margin: 0;
+    padding: 24px 0 0 0;
+    width: 1663px;
+    height: 48px;
+    background: #021F33;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 20px;
+    text-align: center;
+}
+
+.container {
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    width: 1440px;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+.mainNew {
+    margin: 0;
+    padding: 0;
+    height: 900px;
+    background: #FFFFFF;
+}
+#container1 {
+    list-style: none;
+    text-align: center;
+    margin: 0 auto;
+    width: 1440px;
+    height: 900px;
+    background: #FFFFFF;
+}
+
+#container1 h1 {
+    padding: 40px 664px 0;
+    width: 112px;
+    height: 40px;
+    font-family: PingFangSC-Regular;
+    font-size: 28px;
+    color: #000000;
+    text-align: center;
+}
+
+.form {
+    margin: 0 520px;
+    padding: 0;
+}
+
+.form p {
+    margin: 0 0 8px 0;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #333333;
+    text-align: left;
+}
+
+.form span {
+    width: 8px;
+    height: 20px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #E02020;
+    line-height: 20px;
+}
+
+.form input {
+    margin: 0 0 30px 0;
+    padding: 8px 0 8px 10px;
+    width: 390px;
+    height: 20px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+
+#code {
+    margin: 0 0 30px 0;
+    padding:0;
+}
+
+#code input{
+    float: left;
+    margin: 0;
+    padding: 8px 0 8px 10px;
+    width: 270px;
+    height: 20px;
+}
+
+#code button {
+    margin: 0 0 0 16px;
+    width: 100px;
+    height: 38px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+
+#code button:hover {
+    box-shadow: 0 2px 4px 0 #D8D8D8;
+}
+
+.submitButton {
+    list-style: none;
+    margin: 3px auto 67px auto;
+    padding: 0;
+    width: 400px;
+    height: 42px;
+    background: #F16D29;
+    border-radius: 21px;
+    font-family: PingFangSC-Regular;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.submitButton:hover {
+    background: #FFFFFF;
+    border: 1px solid #F16D29;
+    color: #F16D29;
+    box-shadow: 0 2px 4px 0 #D8D8D8;
+}
